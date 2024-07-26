@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: "Space Mono", monospace;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -126,7 +126,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 2.5em;
 		letter-spacing: -1px;
 	}
 
@@ -328,7 +328,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 99.33333%;
 		}
 
 		.row > .off-4 {
@@ -1947,8 +1947,11 @@ input, select, textarea {
 		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;
-		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		font-size: 20px;
+		font-family: "Space Mono", monospace;;
+		padding: 0.5em 1.5em 0.5em 1.5em;
+		/* background-color: #8ebebc; */
+		background-color: #22035b00;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1966,7 +1969,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			/* background-color: #9ececc; */
+			background-color: #22035b45;
 		}
 
 		input[type="button"]:active,
@@ -1974,7 +1978,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: #22035b45;
 		}
 
 /* Item */
@@ -2046,7 +2050,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		/* background: #222629 url("images/overlay.png"); */
+		background: #021523 url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2105,7 +2110,7 @@ input, select, textarea {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: .85em;
 			line-height: 1em;
 		}
 
@@ -2113,7 +2118,7 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
+			color: white;
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
@@ -2137,6 +2142,7 @@ input, select, textarea {
 			#nav ul li a {
 				display: block;
 				padding: 0.5em 1.5em 0.5em 1.5em;
+				font-size: .75em;
 				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
 				outline: 0;
@@ -2169,7 +2175,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #840b60;
 					}
 
 /* Footer */
@@ -2248,7 +2254,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/gradient_landingpage.jpg");
 			}
 
 			#main > section.two {
@@ -2440,7 +2446,8 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
+				/* background: #222729 url("images/overlay.png"); */
+				background: #021523 url("images/overlay.png");
 				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -2631,3 +2638,32 @@ input, select, textarea {
 				}
 
 	}
+	/* My Css */
+
+	.under-header{
+		display: flex;
+		margin: 20px auto 0 auto;
+		width: 12%;
+		padding-bottom: 5px;
+		gap: 25px;
+		justify-content: center;
+		border-bottom:  2px solid white;
+	}
+	#name{
+		font-family: "Space Mono", monospace;
+		font-size: 3em;
+	}
+	.underhead{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.underhead-descr{
+		display: inline;
+		font-family: "Space Mono", monospace;
+		border-right: 2px solid white;
+		font-size: .75em;
+		padding: 0 7px 0 7px
+	}
+
+
+	
