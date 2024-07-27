@@ -35,6 +35,7 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href = "#experience" id = "experience-link"><span class = "icon solid fa-briefcase">Skills</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
 							</ul>
@@ -72,8 +73,8 @@
 								<!-- <p>Ligula scelerisque justo sem accumsan diam quis<br />
 								vitae natoque dictum sollicitudin elementum.</p> -->
 								<span class = "under-header">
-									<img src = "assets/css/icons/github-brands-solid(xl).svg" alt = "Git icon" href = "https://github.com/muntay89" >
-									<img src = "assets/css/icons/linkedin-brands-solid.svg" alt = "LinkedIn icon" href = "https://www.linkedin.com/in/monte-bradford-9094a0281/">
+									<a href = "https://github.com/muntay89"><img src = "assets/css/icons/github-brands-solid(xl).svg" alt = "Git icon" ></a>
+									<a href = "https://www.linkedin.com/in/monte-bradford-9094a0281/"><img src = "assets/css/icons/linkedin-brands-solid.svg" alt = "LinkedIn icon" ></a>
 
 								</span>
 							</header>
@@ -92,16 +93,16 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>MyGamingList - "LetterBoxD"-esque web app to track, get info on, and review
+							<p><a id = "my-gaming-list" href = "https://github.com/muntay89/mygaminglist"><strong>MyGamingList</strong></a> - "LetterBoxD"-esque web app to track, get info on, and review
 								videogames using a database of over 10,000 games
 							</p>
 
-							<div class="row">
+							<div class="row" id = "portf">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/mygaminglistss(1).png" alt="" /></a>
 										<header>
-											<h3>Add Games to List Based on Status</h3>
+											<h3>Add Games to List</h3>
 										</header>
 									</article>
 									<article class="item">
@@ -116,6 +117,52 @@
 						</div>
 					</section>
 
+					<section id = "experience" class = "five">
+						<div class = 'container'>
+							<header>
+								<h2>Experience/Skills</h2>
+							</header>
+							<div class = "row" id = "experience-row">
+								<div class = "exp-rows" >
+									<div class = "language-header">
+										<strong>React</strong>
+										<div class = "icon brands fa-react" style = "color: #61dbfb"></div>
+									</div>
+									<h6 style = "font-size: .75em;">Strong understanding of React developed through self-learning/ project building.
+										Created a dynamic, state-based website utilizing React to present a responsive UI. Also developed a solid foundation in vanilla JavaScript.
+									</h6>
+									</div>
+								<div class = "exp-rows" >
+									<div class = "language-header">
+										<strong>HTML/CSS</strong>
+										<div class = "icon brands fa-html5" style = "color: #e34c26"></div>
+									</div>
+									<h6 style = "font-size: .75em;">Very familiar with HTML and CSS markup languages. Styled multiple websites and proficient in many concepts 
+										such as flexbox, grid, etc.
+									</h6>
+									</div>
+								<div class = "exp-rows" >
+									<div class = "language-header">
+										<strong>MongoDB</strong>
+										<img class = "mongo-icon" src = "assets/css/icons/mongodb-svgrepo-com(1).svg">
+									</div>
+									<h6 style = "font-size: .75em;">Well versed in the basics of MongoDB. Utilized MongoDb collections to store user data
+										and connected cluster to backend Node.JS server. 
+									</h6>
+								</div>
+								<div class = "exp-rows" >
+									<div class = "language-header">
+										<strong>Python</strong>
+										<div class = "icon brands fa-python" style = "color: #306998;"></div>
+									</div>
+									<h6 style = "font-size: .75em;">Developed proficiency in Python through 2 years of coursework including Data Structures 
+										and Algorithms. Demonstrated proficiency through practical use in class project and critical use through interview prep(Leetcode).
+									</h6>
+									</div>
+							</div>
+						</div>
+					</section>
+
 				<!-- About Me -->
 					<section id="about" class="three">
 						<div class="container">
@@ -124,7 +171,7 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/aboutme.png" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/aboutme(2).png" alt="" /></a>
 
 							<p>I am and up and coming AI engineer currently working towards my computer science degree.
 								I enjoy working on personal projects in my free time and am currently searching for an internship. 
@@ -166,9 +213,9 @@
 			<div id="footer">
 
 				<!-- Copyright -->
-					<ul class="copyright">
+					<!-- <ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+					</ul> -->
 
 			</div>
 
